@@ -1,0 +1,21 @@
+.heatmapDivContainer {
+    height: calc(100% - 30px); /* Account for header */
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 8px;
+    padding: 5px; /* Reduced padding */
+}
+
+.cell:hover rect {
+    stroke: #333 !important;
+    stroke-width: 2px !important;
+}
+
+.x-axis text, .y-axis text {
+    font-size: 11px; /* Slightly smaller for compact layout */
+    font-weight: bold;
+}
+
+.legend text {
+    font-size: 9px; /* Smaller legend */
+}

@@ -206,8 +206,6 @@ class ScatterplotD3 {
                 );
         }
 
-        // Don't clear brush on every render - only clear if explicitly needed
-        // this.clearBrush();
     }
 
     clear = function(){
