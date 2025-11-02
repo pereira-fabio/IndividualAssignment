@@ -1,3 +1,20 @@
-.scatterplotDivContainer{
+.scatterplotDivContainer {
     height: 100%;
+    border: 1px solid #ccc;
+    margin: 10px;
+    position: relative;
+}
+
+.brush .selection {
+    stroke: none;
+    fill: steelblue;
+    fill-opacity: 0.3;
+}
+
+.markerG {
+    cursor: pointer;
+}
+
+.markerCircle {
+    transition: all 0.3s ease;
 }
