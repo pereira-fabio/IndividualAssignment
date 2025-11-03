@@ -1,4 +1,3 @@
-// components/heatmap/Heatmap-d3.js
 import * as d3 from "d3";
 
 class HeatmapD3 {
